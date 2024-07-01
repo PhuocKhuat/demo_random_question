@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.app .container {
+  width: 90%;
+  margin: 0 auto;
+}
+.app .container .flex {
+  display: flex;
+  justify-content: center;
+}
+.app .container .flex .flag {
+  width: 50%;
+  height: 50%;
+}
+.app .container .flex .flag:hover {
+  margin-bottom: 30px;
+}
+.app .container .list .options {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.app .container .list .options li {
+  border: 1px solid black;
+  padding: 5px;
+}/*# sourceMappingURL=index.css.map */
